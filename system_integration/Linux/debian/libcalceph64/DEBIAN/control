@@ -1,0 +1,10 @@
+Package: libcalceph
+Version: 1
+Section: education
+Priority: optional
+Maintainer: Patrick Chevalley <pch@ap-i.net>
+Architecture: amd64
+Installed-Size: %size%
+Depends: libc6
+Description: Library to access SPICE and JPL files.
+ libcalceph.so    : Library to access SPICE and JPL files.

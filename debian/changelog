@@ -1,0 +1,6 @@
+libcalceph (1.0.0-0ppa1~disco1) disco; urgency=medium
+
+  * Library to access SPICE and JPL files.
+
+ -- Patrick Chevalley <pch@ap-i.net>  Sun Nov 1 22:01:12 CEST 2020
+

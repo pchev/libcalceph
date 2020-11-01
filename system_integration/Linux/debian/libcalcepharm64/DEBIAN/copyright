@@ -1,0 +1,17 @@
+
+Copyright: 2020 Patrick Chevalley <pch@ap-i.net>
+
+Information :
+Name        : libcalceph
+Version     : 1.0.0
+Release     : 1
+Group       : Sciences/Astronomy
+License     : GPL-3
+ /usr/share/common-licenses/GPL-3
+Packager    : Patrick Chevalley
+URL         : http://libpasastro.sourceforge.net
+Summary     : Library to access SPICE and JPL files.
+Description :
+Library to access SPICE and JPL files.
+
+ 

@@ -1,0 +1,14 @@
+Source: libcalceph
+Section: education
+Priority: optional
+Maintainer: Patrick Chevalley <pch@ap-i.net>
+Build-Depends: debhelper (>= 9), libraw-dev
+Standards-Version: 4.2.1
+Homepage: http://libpasastro.sourceforge.net
+
+Package: libcalceph
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Library to access SPICE and JPL files.
+ Library to access SPICE and JPL files.
+
