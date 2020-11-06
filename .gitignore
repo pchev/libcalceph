@@ -1,3 +1,4 @@
+calceph/calcephconfig.h
 *.o
 *.so.1.*
 last.build
