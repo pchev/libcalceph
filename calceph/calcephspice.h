@@ -8,7 +8,7 @@
            Astronomie et Systemes Dynamiques, IMCCE, CNRS, Observatoire de
   Paris.
 
-   Copyright, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, CNRS
+   Copyright, 2011-2020, CNRS
    email of the author : Mickael.Gastineau@obspm.fr
 
   History:
@@ -392,6 +392,7 @@ struct SPKfile
     double *mmap_buffer;        /*!< preallocated buffer with mmap */
     size_t mmap_size;           /*!< size of mmap_buffer in bytes */
     int mmap_used;              /*!< =1 mmap was used instead of malloc */
+    enum SPKBinaryFileFormat bff; /*!< if bff!=BFF_NATIVE_IEEE, disable prefetch */ 
 };
 
 /*-----------------------------------------------------------------*/
@@ -684,6 +685,10 @@ int calceph_spk_readword(FILE * file, const char *filename, int rec_begin, int r
 int calceph_spk_fastreadword(struct SPKfile *pspk, const struct SPKSegmentHeader *seg,
                              struct SPICEcache *cache, const char *filename, int rec_begin, int rec_end,
                              const double **record);
+int calceph_bff_detect(struct SPKHeader *header);
+void calceph_bff_convert_array_double(double *x, int n, enum SPKBinaryFileFormat reqconvert);
+void calceph_bff_reorder_array_int(int *x, int n, enum SPKBinaryFileFormat reqconvert);
+
 
 /*-----------------------------------------------------------------*/
 /*! internal functions to read text kernel files */

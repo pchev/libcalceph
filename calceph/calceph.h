@@ -69,7 +69,7 @@ terms.
 /*! version : minor number of CALCEPH library */
 #define CALCEPH_VERSION_MINOR 4 
 /*! version : patch number of CALCEPH library */
-#define CALCEPH_VERSION_PATCH 6
+#define CALCEPH_VERSION_PATCH 7
 
 /*----------------------------------------------------------------------------------------------*/
 /* windows specific support */

@@ -1,3 +1,9 @@
+libcalceph (3.4.7) experimental; urgency=low
+
+  * Update to version 3.4.7
+
+ -- Patrick Chevalley <pch@ap-i.net>  Sat Feb 13 11:45:00 CEST 2021
+ 
 libcalceph (1.0.0) experimental; urgency=low
 
   * Library to access SPICE and JPL files.

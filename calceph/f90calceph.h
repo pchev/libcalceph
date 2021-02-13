@@ -144,10 +144,10 @@
        PARAMETER (CALCEPH_VERSION_MINOR=4)
 !  version : patch number of CALCEPH library 
        integer CALCEPH_VERSION_PATCH
-       PARAMETER (CALCEPH_VERSION_PATCH=6)
+       PARAMETER (CALCEPH_VERSION_PATCH=7)
 !  version : string of characters
        character(*) CALCEPH_VERSION_STRING
-       parameter (CALCEPH_VERSION_STRING='3.4.6')
+       parameter (CALCEPH_VERSION_STRING='3.4.7')
 
        
        integer CALCEPH_MAX_CONSTANTNAME

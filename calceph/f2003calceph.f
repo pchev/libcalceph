@@ -69,9 +69,9 @@
 ! version : minor number of CALCEPH library
        integer, parameter ::  CALCEPH_VERSION_MINOR=4
 !  version : patch number of CALCEPH library 
-       integer, parameter ::  CALCEPH_VERSION_PATCH=6
+       integer, parameter ::  CALCEPH_VERSION_PATCH=7
 !  version : string of characters
-       character(*), parameter :: CALCEPH_VERSION_STRING='3.4.6'
+       character(*), parameter :: CALCEPH_VERSION_STRING='3.4.7'
 
        
 !/*----------------------------------------------------------------------------------------------*/
