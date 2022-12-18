@@ -9,7 +9,7 @@
            Astronomie et Systemes Dynamiques, IMCCE, CNRS, Observatoire de
   Paris.
 
-   Copyright, 2011-2020, CNRS
+   Copyright, 2011-2021, CNRS
    email of the author : Mickael.Gastineau@obspm.fr
 
   History:
@@ -996,7 +996,7 @@ if not, the header is converted to the endian of the hardware
   @param header (inout) header to process
 */
 /*--------------------------------------------------------------------------*/
-int calceph_bff_detect(struct SPKHeader *header)
+enum SPKBinaryFileFormat calceph_bff_detect(struct SPKHeader *header)
 {
     union
     {

@@ -1,3 +1,9 @@
+libcalceph (3.5.1) experimental; urgency=low
+
+  * Update to version 3.5.1
+
+ -- Patrick Chevalley <pch@ap-i.net>  Sun Dec 18 10:26:51 CET 2022
+
 libcalceph (3.4.7) experimental; urgency=low
 
   * Update to version 3.4.7
