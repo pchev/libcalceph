@@ -24,6 +24,7 @@ if [[ $arch == armv7l ]]; then
 fi
 if [[ $arch == aarch64 ]]; then 
    make_linuxaarch64=1
+   make_linuxarm=1
 fi
 
 
